@@ -5,5 +5,31 @@
   "devDependencies": {
     "mocha": "^2.1.0",
     "should": "^4.6.4"
-  }
+  },
+  "name": "jsinterface",
+  "description": "Implement duck-type interfaces in Node JS",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://denwilliams@github.com/denwilliams/jsinterface.git"
+  },
+  "keywords": [
+    "interfaces",
+    "interface",
+    "duck",
+    "type"
+  ],
+  "author": "Den Williams",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/denwilliams/jsinterface/issues"
+  },
+  "homepage": "https://github.com/denwilliams/jsinterface"
 }
