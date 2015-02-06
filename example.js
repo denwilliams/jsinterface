@@ -1,8 +1,4 @@
-# jsinterface
-Define, enforce, and wrap duck-type interfaces to objects in Node JS
-
-```js
-var jsInterface = require('jsinterface');
+var jsInterface = require('./index.js');
 
 jsInterface.define({name: 'interface1', methods: ['method1'], properties: ['prop1']});
 
@@ -45,4 +41,3 @@ try {
 } catch(err) {
   console.log(err.name); // MissingPropertyError
 }
-```
